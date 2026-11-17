@@ -1,0 +1,21 @@
+# App Structure - tvc-courts (built page)
+# Last updated: 2026-11-17
+
+## Repositories
+- GitHub: https://github.com/Orangebl00d/tvc-courts
+
+## Backend (Supabase)
+- None
+
+## Deployed Services
+- GitHub Pages (branch gh-pages, root): https://orangebl00d.github.io/tvc-courts/
+- Railway: none
+
+## Environment Variables Required
+- None
+
+## Notes
+- This repository holds only the built page (index.html, assets/, data/). Nothing is edited here.
+- It is built by the Site Renderer (kept locally, not on GitHub), project folder "vintage-club":
+  node cli/walk.mjs --project=vintage-club --site, then the walk/site folder is pushed to the gh-pages branch.
+- The page asks search engines not to list it (a noindex tag and robots.txt).
